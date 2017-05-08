@@ -1,4 +1,4 @@
 COPY virksomheder
-FROM '/home/jesperkihlberg/39261284_111035_20170502135901_VIRKSOMHEDER.csv'
+FROM '/home/jesperkihlberg/VIRKSOMHEDER.csv'
 WITH DELIMITER ','
 CSV HEADER;

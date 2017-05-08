@@ -1,4 +1,4 @@
 COPY deltagere
-FROM '/home/jesperkihlberg/39261284_111035_20170502135901_DELTAGERE.csv'
+FROM '/home/jesperkihlberg/DELTAGERE.csv'
 WITH DELIMITER ','
 CSV HEADER;
