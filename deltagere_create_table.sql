@@ -1,0 +1,34 @@
+CREATE TABLE deltagere
+(
+modifikationsstatus character varying,
+deltagernummer character varying,
+ajourfoeringsdato character varying,
+deltagelseGyldigFra character varying,
+cvrnr character varying,
+pnr character varying,
+oplysninger_deltagertype character varying,
+oplysninger_id character varying,
+oplysninger_navn character varying,
+oplysninger_beliggenhedsadresse_gyldigFra character varying,
+oplysninger_beliggenhedsadresse_vejnavn character varying,
+oplysninger_beliggenhedsadresse_vejkode character varying,
+oplysninger_beliggenhedsadresse_husnummerFra character varying,
+oplysninger_beliggenhedsadresse_husnummerTil character varying,
+oplysninger_beliggenhedsadresse_bogstavFra character varying,
+oplysninger_beliggenhedsadresse_bogstavTil character varying,
+oplysninger_beliggenhedsadresse_etage character varying,
+oplysninger_beliggenhedsadresse_sidedoer character varying,
+oplysninger_beliggenhedsadresse_postnr character varying,
+oplysninger_beliggenhedsadresse_postdistrikt character varying,
+oplysninger_beliggenhedsadresse_bynavn character varying,
+oplysninger_beliggenhedsadresse_kommune_kode character varying,
+oplysninger_beliggenhedsadresse_kommune_tekst character varying,
+oplysninger_beliggenhedsadresse_postboks character varying,
+oplysninger_beliggenhedsadresse_coNavn character varying,
+oplysninger_beliggenhedsadresse_adresseFritekst character varying,
+oplysninger_personstatus character varying,
+rolle character varying
+  )
+  WITH (
+    OIDS=FALSE
+    );
