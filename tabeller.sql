@@ -33,11 +33,30 @@ WITH (
   OIDS=FALSE
 );
 
+CREATE TABLE penhed_adress_lookup
+(
+pnr int,
+adresse_id uuid
+)
+WITH (
+  OIDS=FALSE
+);
+
 
 CREATE TABLE virsomhed_penhed
 (
 cvrnr int,
 pnr int
+)
+WITH (
+  OIDS=FALSE
+);
+
+
+CREATE TABLE penhed_deltager
+(
+pnr int,
+deltagerid int
 )
 WITH (
   OIDS=FALSE
