@@ -1,5 +1,5 @@
 
-CREATE TABLE produktionsenheder
+CREATE TABLE produktionsenheder_raw
 (
   modifikationsstatus character varying,
   pnr character varying,

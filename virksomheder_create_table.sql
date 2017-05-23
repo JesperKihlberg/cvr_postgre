@@ -1,5 +1,5 @@
 
-CREATE TABLE virksomheder
+CREATE TABLE virksomheder_raw
 (
   modifikationsstatus character varying,
   cvrnr character varying,

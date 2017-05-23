@@ -1,4 +1,4 @@
-CREATE TABLE deltagere
+CREATE TABLE deltagere_raw
 (
 modifikationsstatus character varying,
 deltagernummer character varying,
