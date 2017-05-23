@@ -93,7 +93,7 @@ oplysninger_navn char(300),
 primaeraddresse_id uuid,
 primaeraddresse_coord point,
 oplysninger_personstatus	char(145),
-rolle char 30
+rolle char(30)
 )
 WITH (
   OIDS=FALSE
