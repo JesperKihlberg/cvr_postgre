@@ -1,4 +1,4 @@
 COPY deltagere_raw
-FROM '/home/jesperkihlberg/DELTAGERE.csv'
+FROM '/home/jesperkihlberg/DELTAGERE.csv'
 WITH DELIMITER ','
 CSV HEADER;

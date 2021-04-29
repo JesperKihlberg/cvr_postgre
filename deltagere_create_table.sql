@@ -27,7 +27,11 @@ oplysninger_beliggenhedsadresse_postboks character varying,
 oplysninger_beliggenhedsadresse_coNavn character varying,
 oplysninger_beliggenhedsadresse_adresseFritekst character varying,
 oplysninger_personstatus character varying,
-rolle character varying
+rolle character varying,
+primaeraddresse_id uuid,
+primaeraddresse_xcoord NUMERIC,
+primaeraddresse_ycoord NUMERIC
+
   )
   WITH (
     OIDS=FALSE

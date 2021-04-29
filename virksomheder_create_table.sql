@@ -1,4 +1,3 @@
-
 CREATE TABLE virksomheder_raw
 (
   modifikationsstatus character varying,
@@ -87,7 +86,10 @@ CREATE TABLE virksomheder_raw
   maanedsbeskaeftigelse_antalAarsvaerk character varying, 
   maanedsbeskaeftigelse_antalAarsvaerkInterval character varying, 
   produktionsenheder character varying,
-  deltagere character varying
+  deltagere character varying,
+  primaeraddresse_id uuid,
+  primaeraddresse_xcoord NUMERIC,
+  primaeraddresse_ycoord NUMERIC
 
   )
   WITH (

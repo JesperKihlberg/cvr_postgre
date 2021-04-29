@@ -1,4 +1,3 @@
-
 CREATE TABLE produktionsenheder_raw
 (
   modifikationsstatus character varying,
@@ -77,7 +76,10 @@ CREATE TABLE produktionsenheder_raw
   kvartalsbeskaeftigelse_antalAarsvaerk character varying, 
   kvartalsbeskaeftigelse_antalAarsvaerkInterval character varying, 
   hovedafdeling character varying,
-  deltagere character varying
+  deltagere character varying,
+  primaeraddresse_id uuid,
+  primaeraddresse_xcoord NUMERIC,
+  primaeraddresse_ycoord NUMERIC
 
   )
   WITH (
